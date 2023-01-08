@@ -2,13 +2,28 @@ body{
     background-color: white;
     color:black;
 
-    font-family:monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 17px;
-    font-weight: normal;
     line-height:1.5;
 
     margin:0;
     padding:0;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
 }
 
 html {
@@ -42,58 +57,31 @@ header #branding{
 
 header nav{
     float: right;
-    padding-top:25px;
+    padding-top:40px;
 }
 
-@media(min-width:760px) {
-    .container-1{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .container-2{
-        display: flex;
-        align-items:center;
-        justify-content:space-around;
-    }
+
+.container-1{
+    padding-left: 50px;
+    padding-right: 50px;
+}
     
-}
-
 .container-1 div{
     margin:0;
     padding:10px;
 }
 
-.box-1{
-    padding-left: 5%;
-    width:25%;
+.container-2{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
 }
 
-#introduction h1{ 
-    font-size: 50px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.introduction{
+    padding-top: 10%;
 }
 
-
-.box-2{
-    width:40%;
-}
-
-.box-2 a{
-    color:black;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 85px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    line-height: 1.4;
-}
-
-.box-2 #second-navbar{
-    padding-left: 20px;
-}
-
-.box-2 li{
-    display:block;
-}
 
 footer{
     background-color: white;
@@ -105,43 +93,36 @@ footer{
 }
 
 a:hover{
-    color:lightslategrey;
+    color:lightslategray;
 }
 
 
 /* Page Specific*/
-article{
-    padding-left:10%;
 
-}
-
-#page-title{
+.page-title{
     text-align: left;   
 }
 
-#page-title:hover{
-    color:lightblue; 
-}
-
-#page-title p{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.page-title p{
     text-transform: uppercase;
     font-size: 80px;
 }
 
-.boldinfo{
-    font-size: 25px;
-}
-
-.box-3{
-    padding-left:5%;
-    width:35%;
-}
-
 .full-page{
-    padding-left:10%;
-    width: 60%;
+    width: 50%;
+    text-align: center;
 }
+
+.contact li{
+    font-size: 20px;
+    list-style: none;
+}
+
+.content{
+    text-align:start;
+}
+
+
 
 
 
