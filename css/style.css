@@ -75,7 +75,8 @@ header nav{
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
+    
 }
 
 .introduction{
@@ -97,8 +98,7 @@ a:hover{
 }
 
 
-/* Page Specific*/
-
+/* Subpages*/
 .page-title{
     text-align: center;
 }
@@ -108,8 +108,17 @@ a:hover{
     font-size: 80px;
 }
 
+#about-container{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
 .full-page{
-    width: 50%;
+    width: 40%;
     text-align: center;
 }
 
