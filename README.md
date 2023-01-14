@@ -10,5 +10,5 @@ A website built to display my skills, projects, interests, and other experiences
 
 ### Contact
 Email:
-- [akytong70@gmail.com]{akytong70@gmail.com}
+- akytong70@gmail.com
  
