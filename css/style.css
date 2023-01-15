@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
 body{
-    background-color: white;
+    background-color: rgb(93, 119, 236);
     color:black;
 
     font-family:'Noto Sans JP', sans-serif;
@@ -99,7 +99,7 @@ a::before{
     width: 100%;
     height: 1px;
     border-radius: 6px;
-    background-color: #18272F;
+    background-color:black;
     bottom: 0;
     left: 0;
     transform-origin: right;
@@ -113,6 +113,18 @@ a:hover::before{
 }
 
 /*Home/Landing Page*/
+.landing-page h1 {
+    box-shadow: inset 0 0 0 0 black;
+    color:rgb(0, 0, 0);
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.landing-page h1:hover {
+    box-shadow: inset 900px 0 0 0  black;
+    color: white;
+}
+
 header{
     animation: main-header; 
     position: relative;
@@ -130,7 +142,7 @@ header{
 }
 
 .landing-page{
-    padding-top: 10%;
+    padding-top: 15%;
     animation: ease-in-from-top;   
     position: relative;
     animation-timing-function: ease-in-out;
@@ -253,7 +265,7 @@ header{
 }
 
 .full-page:nth-of-type(1){
-    background:whitesmoke;
+    background: rgb(255, 255, 255);
     color: rgb(41, 40, 40);
 }
 
@@ -262,6 +274,30 @@ header{
     color: rgb(41, 40, 40);
         
 }
+
+/* grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    column-gap: 50px;
+    row-gap: 50px;
+    
+}
+
+.grid-item1{
+    background-color:  rgb(66, 202, 236);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.grid-item2{
+    background-color:  rgb(236, 66, 117);
+    padding: 30px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    border-radius: 8px;
+}
+
 
 /*scrollbar*/
 /* width */
