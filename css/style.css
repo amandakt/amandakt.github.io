@@ -1,13 +1,17 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
 body{
     background-color: white;
     color:black;
 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Noto Sans JP', sans-serif;
     font-size: 17px;
     line-height:1.5;
-
     margin:0;
     padding:0;
+
+    overflow: hidden;
 }
 
 h1{
@@ -55,6 +59,11 @@ header #branding{
     float:left;
 }
 
+header #branding h4{
+    float:left;
+    font-size: 23px;
+}
+
 header nav{
     float: right;
     padding-top:40px;
@@ -79,8 +88,28 @@ header nav{
     
 }
 
-a:hover{
-    color:lightslategray;
+a{
+    position: relative;
+    font-size: 20px;
+}
+  
+a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    border-radius: 6px;
+    background-color: #18272F;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+  
+a:hover::before{
+    transform-origin: left;
+    transform: scaleX(1);
 }
 
 /*Home/Landing Page*/
@@ -110,25 +139,18 @@ header{
 }
 
 @keyframes ease-in-from-top{
-    0% {top: -500px}
+    0% {top: -200px}
     100% {top: 0px}
     70% {top: 10px}
     
 }
 
 #footer{
-    background-color: white;
     position:fixed;
     bottom:0;
     width:100%;
     height:60px;
     font-size: 10px;
-    animation: fade;   
-    animation-timing-function: ease-in-out;
-    animation-delay: 1s;
-    visibility: hidden;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
 }
 
 @keyframes fade {
@@ -138,35 +160,61 @@ header{
 }
 
 /* Subpages*/
-#page-title{
-    text-align: center;
+
+.container-page{
+    width: 100%;
+    height: 100%;
+}
+
+.full-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(66, 140, 236);
+}
+
+.page-title{
     animation: ease-in-from-top;   
     position: relative;
     animation-timing-function: ease-in-out;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-}
-
-.page-title p{
-    text-transform: uppercase;
-    font-size: 80px;
-}
-
-#about-container{
     display: flex;
-    justify-content:space-around;
-    padding-top: 5%;
-    padding-left: 50px;
-    padding-right: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.arrow{
+    animation: bounce;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    bottom: 0;
     
 }
 
-.full-page{
-    width: 40%;
-    text-align: center;
+@keyframes bounce{
+    0% {bottom: 0px;}
+    100% { bottom: -30px; }
 }
 
-.contact li{
+.contact-page{
+    display: flex;
+}
+
+.contact-content li{
     font-size: 20px;
     list-style: none;
     text-align: start;
@@ -179,14 +227,40 @@ header{
     animation-fill-mode: forwards;
 }
 
-.content{
-    text-align:start;
+.skills-content{
+    padding-left: 20px;
+    padding-right: 20px;
     animation: fade;   
     animation-timing-function: ease-in-out;
     animation-delay: 2s;
     visibility: hidden;
     animation-duration: 2s;
     animation-fill-mode: forwards;
+    
+}
+
+.content{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: start;
+    animation: fade;   
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    visibility: hidden;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+
+.full-page:nth-of-type(1){
+    background:whitesmoke;
+    color: rgb(41, 40, 40);
+}
+
+.full-page:nth-of-type(2){
+    background: white;
+    color: rgb(41, 40, 40);
+        
 }
 
 /*scrollbar*/
