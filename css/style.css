@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
 body{
-    background-color: rgb(93, 119, 236);
+    background-color:  rgb(125, 135, 219);
     color:black;
 
     font-family:'Noto Sans JP', sans-serif;
@@ -184,7 +184,6 @@ header{
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: rgb(66, 140, 236);
 }
 
 .page-title{
@@ -265,7 +264,7 @@ header{
 }
 
 .full-page:nth-of-type(1){
-    background: rgb(255, 255, 255);
+    background: rgb(125, 135, 219);
     color: rgb(41, 40, 40);
 }
 
@@ -285,13 +284,13 @@ header{
 }
 
 .grid-item1{
-    background-color:  rgb(66, 202, 236);
+    background-color: lightblue;
     padding: 30px;
     border-radius: 8px;
 }
 
 .grid-item2{
-    background-color:  rgb(236, 66, 117);
+    background-color: rgb(200,191,247);
     padding: 30px;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
