@@ -43,7 +43,7 @@ I'm a problem solver and am passionate about technology and electrical circuits.
 helped youth learn about the world of technology by introducing them to robotics, block coding, and 3D game design/modelling 
 through games such as <em>Minecraft</em> and <em> Roblox </em>. 
 
-                            <br><br>
+
 
 I am also someone who loves to create and design! This could be through learning to draw electric and mechanical systems, 
 web development, or even my interest and hobby in art! In my free time, outside of school, I found an interest in learning AutoCAD 
