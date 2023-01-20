@@ -1,14 +1,14 @@
 # amandakt.github.io
-## My Personal Website
+# My Personal Website
 
-### Description
+## Description
 A website built to display my skills, projects, interests, and other experiences and facts about me to employers and others who are interested in tech and design!
 
-### Introduction
+## Introduction
 
 **Hi, my name is Amanda Tong,** and welcome to my personal website!
 
-### Contact
+## Contact
 Phone: 
 - 6479734373
 Email:
@@ -16,7 +16,7 @@ Email:
 LinkedIn:
 - www.linkedin.com/in/amandakt19 
 
-### Toolkit
+## Toolkit
 
 HTML5/CSS , familiar & learning</li>
 - C++, familiar
@@ -28,15 +28,15 @@ HTML5/CSS , familiar & learning</li>
 - Arduino, familiar and learning 
 - STM32, familiar and learning 
 
-# New Skills That I am Learning
+### New Skills That I am Learning
                           
  - AutoCAD Electrical
  - JavaScript 
  - React 
  
-### About
+## About
 
-# Hello! My name is Amanda Tong. 
+### Hello! My name is Amanda Tong. 
 
 I am an <b>Electrical Engineering </b> student studying at the <b> University of Waterloo</b>. 
 I'm a problem solver and am passionate about technology and electrical circuits. With my passion, I have  
