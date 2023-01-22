@@ -277,7 +277,7 @@ header{
 }
 
 .full-page:nth-of-type(2){
-    background: white;
+    background: rgb(125, 135, 219);
     color: rgb(41, 40, 40);
         
 }
@@ -285,15 +285,15 @@ header{
 /* grid */
 .grid-container {
     display: grid;
-    grid-template-columns: 450px 450px;
-    column-gap: 20px;
-    row-gap: 20px; 
+    grid-template-columns: 400px 400px;
+    column-gap: 10px;
+    row-gap: 10px; 
+    font-size: 15px;
 }
 
 .grid-container h2{
-    font-size: 50px;
+    font-size: 40px;
 }
-    
 
 
 .grid-item1{
@@ -303,7 +303,7 @@ header{
     border-radius: 2px;
     position: relative;
     font: 15px;
-    width: 450px;
+    width: 400px;
     height: auto;  
     text-align: center;
 }
@@ -314,7 +314,7 @@ header{
     grid-row: 1 / 3;
     border-radius: 2px;
     position: relative;
-    width: 450px;
+    width: 400px;
     height: auto;
     font: 12px;  
 }
@@ -354,8 +354,8 @@ header{
     grid-row: 1 / 3;
     border-radius: 2px;
     position: relative;
-    width: 450px;
-    height: 730px;
+    width: 400px;
+    height: 650px;
 }
 
 .grid-item3 .faded-text{
