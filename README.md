@@ -18,7 +18,7 @@ LinkedIn:
 
 ## Toolkit
 
-HTML5/CSS , familiar & learning</li>
+- HTML5/CSS , familiar & learning</li>
 - C++, familiar
 - Java, familiar 
 - Python, familiar & learning 
