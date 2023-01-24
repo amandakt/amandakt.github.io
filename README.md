@@ -9,12 +9,10 @@ A website built to display my skills, projects, interests, and experiences to em
 **Hi, my name is Amanda Tong,** and welcome to my personal website!
 
 ## Contact
-Phone: 
-- 6479734373
-Email:
-- akytong70@gmail.com
-LinkedIn:
-- www.linkedin.com/in/amandakt19 
+ 
+- Phone: 6479734373
+- Email: akytong70@gmail.com
+- LinkedIn: www.linkedin.com/in/amandakt19 
 
 ## Toolkit
 
